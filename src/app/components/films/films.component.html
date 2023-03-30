@@ -1,0 +1,6 @@
+<h3 class="mt-3">{{ section.section }}</h3>
+<div class="d-flex flex-wrap justify-content-between">
+    <div *ngFor="let film of section.films" class="mt-3 g-3">
+        <img src="{{ film.image }}" alt="{{ film.title }}" class="">
+    </div>
+</div>
